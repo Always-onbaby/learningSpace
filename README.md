@@ -1,7 +1,9 @@
-# Javascript学习
+### Javascript学习
+```
 Javascript，Vue，ElementUi，JQ，CSS3学习空间
+```
 
-## 依次进入项目安装项目依赖
+### 依次进入项目安装项目依赖
 ```
 npm install
 ```
