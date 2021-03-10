@@ -1,0 +1,34 @@
+{
+  "httpStatus": "200",
+  "errorMessage": "",
+  "metadata": {},
+  "data": [
+    {
+      "nick": "",
+      "isDelete": false,
+      "orgId": 194600403,
+      "depts": [],
+      "personalPhoto": "https:\/\/static.dingtalk.com\/media\/lADPDgQ9q5RkC2PNAqzNAcc_455_684.jpg",
+      "staffId": "071928554137633828",
+      "uid": 174728091,
+      "role": null,
+      "userName": "陈代赟",
+      "name": "陈代赟"
+    },
+    {
+      "nick": "",
+      "isDelete": false,
+      "orgId": 194600403,
+      "depts": [],
+      "personalPhoto": "",
+      "staffId": "manager976",
+      "uid": 525425906,
+      "role": null,
+      "userName": "方野",
+      "name": "方野"
+    }
+  ],
+  "success": true,
+  "throwable": "",
+  "errorCode": ""
+}

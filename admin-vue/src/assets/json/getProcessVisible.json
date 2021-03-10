@@ -1,0 +1,28 @@
+{
+  "httpStatus": "200",
+  "errorMessage": "",
+  "metadata": {},
+  "data": [
+    {
+      "corpId": "ding0071a8685058bd1dffe93478753d9884",
+      "processCode": "PROC-0D4F4CD1-9FCB-4706-9D87-F39045B801BB",
+      "icon": "",
+      "visibleType": 0,
+      "unactiveFlag": 0,
+      "visibleValue": "357333670",
+      "name": "研发部"
+    },
+    {
+      "corpId": "ding0071a8685058bd1dffe93478753d9884",
+      "processCode": "PROC-0D4F4CD1-9FCB-4706-9D87-F39045B801BB",
+      "icon": "https:\/\/static.dingtalk.com\/media\/lADPDgQ9q5RkC2PNAqzNAcc_455_684.jpg",
+      "visibleType": 1,
+      "unactiveFlag": 0,
+      "visibleValue": "071928554137633828",
+      "name": "陈代赟"
+    }
+  ],
+  "errorCode": "",
+  "throwable": "",
+  "success": true
+}

@@ -1,0 +1,77 @@
+.base-customer {
+  .tab-card {
+    margin-bottom: 20px;
+  }
+	.page-list {
+		.list-item {
+			margin-bottom: 20px;
+			.item-row {
+				display: flex;
+				align-items: center;
+				height: 42px;
+				&.sub_row {
+					border-bottom: 1px dashed #ccc;
+        }
+        &.under-row {
+          background-color: #f8fcfe;
+        }
+				.text-r {
+          text-align: right;
+          .count-label {
+            padding-right: 20px;
+            font-size: 14px;
+          }
+          .count {
+            padding-right: 20px;
+            font-size: 20px;
+            color: #39c;
+          }
+				}
+				.sub_col {
+          font-size: 14px;
+          >span{
+            padding-left: 20px;
+            &.location {
+              color: #4175aa;
+            }
+          }
+        }
+        .col-item {
+          &.customer-name {
+            font-size: 16px;
+            padding-left: 20px;
+            cursor: pointer;
+            &:hover {
+              color: #409eff;
+            }
+          }
+					&[class*="cus-status"] {
+						font-size: 12px;
+						padding: 4px 10px;
+						background-color: #f60;
+						color: #fff;
+						border-radius: 10px;
+						cursor: pointer;
+						user-select: none;
+						&.cus-status1 {
+							background-color: #999;
+						}
+						&.cus-status2 {
+							background-color: #7ca2b5;
+						}
+						&.cus-status3 {
+							background-color: #cf9b8c;
+						}
+						&.cus-status4 {
+							background-color: #3fc1d4;
+						}
+					}
+					margin-right: 20px;
+					&:last-child {
+						margin-right: 0;
+					}
+        }
+			}
+		}
+	}
+}

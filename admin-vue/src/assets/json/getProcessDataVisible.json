@@ -1,0 +1,19 @@
+{
+  "httpStatus": "200",
+  "errorMessage": "",
+  "metadata": {},
+  "data": [
+    {
+      "corpId": "ding0071a8685058bd1dffe93478753d9884",
+      "processCode": "PROC-0D4F4CD1-9FCB-4706-9D87-F39045B801BB",
+      "visibleValue": "357333670",
+      "icon": "",
+      "visibleType": 0,
+      "unactiveFlag": 0,
+      "name": "研发部"
+    }
+  ],
+  "errorCode": "",
+  "throwable": "",
+  "success": true
+}

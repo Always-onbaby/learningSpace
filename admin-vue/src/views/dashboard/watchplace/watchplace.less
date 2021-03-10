@@ -1,0 +1,303 @@
+.set-content {
+	width: 800px;
+	background: #fff;
+	box-shadow: 0 0 5px #ccc;
+	margin: 0 auto 20px;
+	.info-header {
+		display: flex;
+		padding: 20px 10px;
+		border-bottom: 1px solid #d7d7d7;
+		.logo-wrap {
+			width: 100px;
+			height: 100px;
+      border-radius: 10px;
+      display: flex;
+		}
+		.header-main-info {
+			margin-left: 20px;
+			flex: 1;
+			font-size: 14px;
+			color: #999999;
+			.item {
+				padding-bottom: 10px;
+				.company-name {
+					font-size: 16px;
+					color: #333;
+					font-weight: 500;
+				}
+				.iocnfont {
+					font-size: 16px;
+
+					&.active {
+						color: #f59a23;
+					}
+				}
+				&.info_tips {
+					height: 40px;
+					line-height: 40px;
+					background-color: #ebf5ff;
+					border: 1px solid #d6ebff;
+					border-radius: 4px;
+					padding: 0 10px;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	.info-main {
+		display: flex;
+		/deep/.tab_wrap {
+			padding-top: 30px;
+			width: 100%;
+			.el-table {
+				.header_row {
+					th {
+						background-color: #fafafa;
+					}
+				}
+				[class*="status_"] {
+					color: #00cc00;
+					&.status_0 {
+						color: #ff0000;
+					}
+				}
+			}
+		}
+		.main-item {
+			// text-align: center;
+			width: 50%;
+			font-size: 14px;
+			color: #333;
+			&.main-left {
+				padding: 30px 0 0 20px;
+				.left_item {
+					padding-bottom: 24px;
+					display: flex;
+					align-items: center;
+					.input_value {
+						max-width: 230px;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+          }
+          &.bill_info_title {
+            display: flex;
+            align-items: center;
+            padding-bottom: 0;
+            margin-bottom: 14px;
+            border-bottom: 1px solid #d7d7d7;
+            margin-right: 20px;
+            justify-content: space-between;
+          }
+          &.bill_info {
+            font-size: 13px;
+            margin-right: 20px;
+              .info_list_item {
+                padding-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .content_wrap {
+                  flex-basis: 280px;
+                  .item_text {
+                    padding-bottom: 10px;
+                  }
+                }
+                .btn_wrap {
+                  .el-button {
+                    padding-top: 0;
+                  }
+                }
+              }
+          }
+					&.edit_item {
+						color: #999;
+						.el-input {
+							flex-basis: 180px;
+						}
+						.cancle_btn {
+							margin-left: 6px;
+						}
+						.edit_icon {
+							color: #31b7f3;
+							margin-left: 6px;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+			&.main_right {
+				padding: 30px 20px 0;
+				display: flex;
+				.license_wrap {
+					width: 50%;
+          margin-right: 20px;
+          .avatar-uploader {
+            width: 100%;
+            height: 80%;
+            /deep/.el-upload{
+              height: 100%;
+            }
+            .el-image {
+              display: flex;
+            }
+          }
+				}
+				.id_code_wrap {
+					width: 50%;
+					.img_wrap {
+						height: 80%;
+						display: inline-flex;
+						flex-direction: column;
+            justify-content: space-between;
+            .avatar-uploader {
+              width: 100%;
+              height: 49%;
+              /deep/.el-upload{
+                height: 100%;
+              }
+              .el-image {
+                display: flex;
+              }
+            }
+					}
+				}
+				.img_tips {
+					height: 20%;
+					font-size: 12px;
+					color: #999;
+					text-align: center;
+					padding-top: 20px;
+				}
+			}
+			&:first-child {
+				border-right: 1px solid #d7d7d7;
+			}
+		}
+	}
+}
+
+.details_con_wrap {
+  // width: 1020px;
+  margin: 0 auto;
+  padding-top: 30px;
+  .info_item {
+    margin: 30px 0 20px;
+    border-bottom: 1px dashed #d7d7d7;
+    padding-bottom: 18px;
+    .item_title {
+      padding-left: 15px;
+      border-left: 3px solid #409eff;
+    }
+    .item_con {
+      font-size: 12px;
+      color: #999;
+      .item_con_col {
+        text-align: right;
+        margin-top: 20px;
+        display: flex;
+        .label {
+          width: 180px;
+        }
+        .contract_list {
+          .contract_list_item {
+            padding-bottom: 15px;
+          }
+        }
+        .text {
+          flex: 1;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+/deep/.user-form-dia {
+  .el-dialog__body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+/deep/.user-form {
+  padding: 0 20px;
+  .el-form-item {
+    margin-bottom: 6px;
+  }
+  .el-form-item__label {
+    padding: 0;
+  }
+  .id_wrap {
+    .el-form-item__content {
+      display: flex;
+      .el-image {
+        display: block;
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+/deep/.company-form-dia {
+  .el-dialog__body {
+    // padding-top: 10px;
+    padding-bottom: 10px;
+    .info-content {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      // box-sizing: initial;
+      // box-sizing: ;
+      .info-list {
+        flex-basis: 500px;
+        padding-left: 24px;
+        .list-item {
+          max-width: 500px;
+          box-sizing: content-box;
+          height: 24px;
+          padding-bottom: 16px;
+          display: flex;
+          align-items: center;
+          .text {
+            max-width: 70%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+          &.check_wrap {
+            .el-checkbox__label {
+              font-size: 12px;
+              .show-detail {
+                padding-left: 6px;
+                color: #409eff;
+              }
+            }
+          }
+        }
+      }
+      .id_wrap {
+        flex: 1;
+        padding-top: 25px;
+        text-align: center;
+        .image_tips {
+          font-size: 12px;
+          color: #999;
+          padding-top: 20px;
+        }
+      }
+    }
+  }
+}
+/deep/.roles-dia {
+  .el-dialog__body {
+    padding: 20px;
+  }
+  .tab_tips {
+    font-size: 12px;
+    color: #999;
+    padding-top: 25px;
+  }
+}

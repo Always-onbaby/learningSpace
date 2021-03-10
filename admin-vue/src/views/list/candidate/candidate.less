@@ -1,0 +1,114 @@
+.base-candidate {
+	.tab-card {
+		margin-bottom: 20px;
+		&.tab-nav {
+			background-color: #f8fcfe;
+			.nav-item {
+				margin-right: 20px;
+				font-size: 12px;
+				cursor: pointer;
+				padding: 3px 10px;
+				border-radius: 10px;
+				&.active {
+					color: #fff;
+					background-color: #409eff;
+				}
+				&:last-child {
+					margin-right: 0;
+				}
+				b {
+					padding-left: 2px;
+				}
+			}
+		}
+	}
+	.page-list {
+		.list-item {
+			margin-bottom: 20px;
+			.item-row {
+				display: flex;
+				align-items: center;
+				height: 42px;
+        .clo_center {
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+          .el-avatar {
+            cursor: pointer;
+          }
+        }
+				&.sub_row {
+					border-bottom: 1px dashed #ccc;
+				}
+				&.under-row {
+					background-color: #f8fcfe;
+				}
+				.text-r {
+					text-align: right;
+				}
+				.sub_col {
+					font-size: 14px;
+					> span {
+						padding-left: 20px;
+					}
+				}
+				.col-item {
+          margin-right: 20px;
+          &.note-nums {
+            font-size: 12px;
+            cursor: pointer;
+            color: #e6a23c;
+          }
+          &.person-duty {
+            font-size: 14px;
+            cursor: pointer;
+            b {
+              font-weight: normal;
+              color: #409eff;
+            }
+          }
+					&.customer-name {
+						font-size: 16px;
+						padding-left: 20px;
+						cursor: pointer;
+						&:hover {
+							color: #409eff;
+						}
+					}
+					&:last-child {
+						margin-right: 0;
+					}
+				}
+			}
+			.count {
+				padding-right: 20px;
+			}
+			// .nature {
+
+			// }
+			// .location {
+			// 	padding-left: 20px;
+			// }
+			// .item-header,
+			// .item-footer {
+			// 	display: flex;
+			// 	padding: 0 20px;
+			// 	justify-content: space-between;
+			// }
+			// .item-header {
+			// 	border-bottom: 1px dashed #ccc;
+			// 	.el-link {
+			//     font-size: 16px;
+			//     padding-left: 20px;
+			// 	}
+			// 	.right {
+			// 		.count {
+			// 			font-size: 20px;
+			// 			color: #3399cc;
+			// 			margin-right: 24px;
+			// 		}
+			// 	}
+			// }
+		}
+	}
+}
